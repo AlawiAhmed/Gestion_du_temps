@@ -13,7 +13,7 @@ mongoose.connect("mongodb+srv://sa:12345@databasesdeployment.3nzlc8b.mongodb.net
 });
 
 app.get("/", (req, res) => {
-    res.send("Bienvenu en node js")
+    res.send("Bienvenu en node js verstion")
 });
 
 app.get("/home", (req, res) => {
